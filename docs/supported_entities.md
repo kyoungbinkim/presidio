@@ -100,6 +100,9 @@ For more information, refer to the [adding new recognizers documentation](analyz
 | FieldType  | Description                                                                                             | Detection Method                         |
 |------------|---------------------------------------------------------------------------------------------------------|------------------------------------------|
 | KR_RRN     | The Korean Resident Registration Number (RRN) is a 13-digit number issued to all Korean residents. | Pattern match, context and custom logic. |
+| KR_PASSPORT| The Korean Passport Number  | Pattern match, context. |
+| KR_DRIVER_LICENSE | The Korean Driver License Number is issued to licensed drivers in South Korea. | Pattern match, context and custom logic. |
+| KR_PHONE_NUMBER | Korean telephone numbers including mobile (010-XXXX-XXXX) and landline numbers with regional area codes (02-Seoul, 031-Gyeonggi, etc.). | Pattern match and context. |
 
 ### Thai
 | FieldType  | Description                                                                                             | Detection Method                         |
